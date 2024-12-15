@@ -138,12 +138,13 @@ let listOfProjects = [];
 function renderProjects() {
     // Remove todos os projetos do DOM
     document.querySelectorAll('.portfolio-container').forEach(container => container.remove());
+    let projetos = document.getElementById('projetos')
 
     // Adiciona os projetos ordenados pela prioridade
     listOfProjects
         .sort((a, b) => b.priority - a.priority) // Ordem decrescente por prioridade
         .forEach(project => {
-            document.body.appendChild(project.element);
+            projetos.appendChild(project.element);
         });
 }
 
