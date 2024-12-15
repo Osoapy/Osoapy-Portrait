@@ -154,7 +154,7 @@ function addProject(priority, title, team, description, imageArray, link) {
 }
 
 addProject(
-    30,
+    3000,
     'Compilador Online de Lua',
     ['João Gabriel, Emanuel Franklyn, Hugo e Leonardo'],
     'Criado para otimizar o tempo durante o minicurso (ministrado por mim e Emanuel) Desvendando Lua: Conceito, Sintaxe e Aplicações...',
@@ -167,4 +167,50 @@ addProject(
         './assets/desvendandoLua5.png',
     ],
     'https://github.com/Osoapy/Desvendando-Lua'
+);
+
+addProject(
+    2000,
+    'Flies And Food',
+    ['João Gabriel'],
+    'Uma rede neural artificial feita em Lua (e apresentada com o framework de jogos Love2D) que utiliza aleatoriedade, pesos e algoritmos geracionais para de adaptar a necessidade de chegar a comida. Com algumas gerações de prática a maioria das moscas se tornam capazes de chegar até a comida. No seu README é possível encontrar o modelo lógico por trás...',
+    [
+        './assets/FliesAndFood0.png',
+        './assets/FliesAndFood1.png',
+        './assets/FliesAndFood2.png',
+        './assets/FliesAndFood3.png',
+    ],
+    'https://github.com/Osoapy/Flies-And-Food'
+);
+
+addProject(
+    1000,
+    'Lan House Central',
+    ['João Gabriel, Kahê Mikayas, Daniel Lima e Alexandre Evangelista'],
+    'Um site que além de apresentar a Lan Houce Central e sua história torna possível a manutenção de horários digitalmente através de um CRUD em Javascript...',
+    [
+        './assets/LanHouse0.png',
+        './assets/LanHouse1.png',
+        './assets/LanHouse2.png',
+        './assets/LanHouse3.png',
+        './assets/LanHouse4.png',
+        './assets/LanHouse5.png',
+        './assets/LanHouse6.png',
+    ],
+    'https://github.com/Osoapy/Lan-House-Central-CRUD'
+);
+
+
+addProject(
+    1500,
+    'Love2d Watchlist',
+    ['João Gabriel'],
+    'Projeto pra cadeira de POO, porém, utilizando Lua (e o framework Love2d) de um modo único para gerar o encapsulamento de variáveis e armazenamento de dados para fazer um CRUD de 3 entidades...',
+    [
+        './assets/watchlist0.png',
+        './assets/watchlist1.png',
+        './assets/watchlist2.png',
+        './assets/watchlist3.png',
+    ],
+    'https://github.com/Osoapy/Love2d-Watchlist-CRUD'
 );
