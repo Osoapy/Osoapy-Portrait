@@ -190,13 +190,13 @@ addProject(
     ['João Gabriel, Kahê Mikayas, Daniel Lima e Alexandre Evangelista'],
     'Um site que além de apresentar a Lan Houce Central e sua história torna possível a manutenção de horários digitalmente através de um CRUD em Javascript...',
     [
-        './assets/LanHouse0.png',
-        './assets/LanHouse1.png',
-        './assets/LanHouse2.png',
-        './assets/LanHouse3.png',
-        './assets/LanHouse4.png',
-        './assets/LanHouse5.png',
-        './assets/LanHouse6.png',
+        './assets/lanHouse0.png',
+        './assets/lanHouse1.png',
+        './assets/lanHouse2.png',
+        './assets/lanHouse3.png',
+        './assets/lanHouse4.png',
+        './assets/lanHouse5.png',
+        './assets/lanHouse6.png',
     ],
     'https://github.com/Osoapy/Lan-House-Central-CRUD'
 );
