@@ -15,6 +15,7 @@ function toggleTheme() {
     root.style.setProperty('--title', '#333');
     root.style.setProperty('--subtitle', '#444');
     root.style.setProperty('--text', '#555');
+    localStorage.setItem('darkMode', 'false'); // Salva no localStorage
   } else {
     // Tema Escuro
     root.style.setProperty('--bodyBackground', '#121212');
@@ -26,11 +27,23 @@ function toggleTheme() {
     root.style.setProperty('--title', '#ccc');
     root.style.setProperty('--subtitle', '#bbb');
     root.style.setProperty('--text', '#aaa');
+    localStorage.setItem('darkMode', 'true'); // Salva no localStorage
   }
 }
 
 // Adiciona um ouvinte de evento para o checkbox
 themeToggle.addEventListener('change', toggleTheme);
 
-// Inicializa o tema de acordo com o estado do checkbox
-toggleTheme();
+// Inicializa o tema de acordo com o estado salvo no localStorage
+function initializeTheme() {
+  const darkMode = localStorage.getItem('darkMode');
+  if (darkMode === 'true') {
+    themeToggle.checked = false; // Escuro
+  } else {
+    themeToggle.checked = true; // Claro
+  }
+  toggleTheme(); // Atualiza as propriedades CSS com base no estado inicial
+}
+
+// Chama a inicialização
+initializeTheme();

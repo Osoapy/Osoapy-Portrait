@@ -66,3 +66,8 @@ input[type="checkbox"]:checked ~ .check::after {
   transform: translateX(0); /* Sol vai para o centro */
   opacity: 1; /* Torna-se visível */
 }
+
+#darkMode-container {
+  display: flex;
+  align-items: center;
+}
