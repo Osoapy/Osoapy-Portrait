@@ -177,18 +177,21 @@ function renderProjects(fatherID) {
                 .forEach(project => {
                     section.appendChild(project.element);
                 });
+                break;
         case 'documentos':
             listOfDocumentation
                 .sort((a, b) => b.priority - a.priority) // Ordem decrescente por prioridade
                 .forEach(project => {
                     section.appendChild(project.element);
                 });
+                break;
         case 'outros':
             listOfOthers
                 .sort((a, b) => b.priority - a.priority) // Ordem decrescente por prioridade
                 .forEach(project => {
                     section.appendChild(project.element);
                 });
+                break;
     }
 }
 

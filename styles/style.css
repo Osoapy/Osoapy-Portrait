@@ -27,20 +27,6 @@ section {
     scroll-margin-top: 4.8rem; /* Altura do header */
 }
 
-/* IDs */
-#curriculoContainer {
-    position: relative;
-    padding-top: 141.4286%;
-    padding-bottom: 0;
-    box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
-    margin-top: 1.6em;
-    margin-bottom: 0.9em;
-    overflow: hidden;
-    height: 100vh;
-    border-radius: 8px;
-    will-change: transform;
-}
-
 /* Classes*/
 .portfolio-box {
     width: 80%;

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/darkMode.css"/>
     <link rel="stylesheet" href="styles/style.css"/>
     <link rel="stylesheet" href="styles/header.css"/>
+    <link rel="stylesheet" href="styles/curriculo.css"/>
     <link rel="icon" href="assets/icon.png"/>
 </head>
 <body>
@@ -48,14 +49,17 @@
             <h1 class="section-first-title">♤ Currículo</h1>
         </div>
         <div id="curriculoContainer" class="portfolio-box">
-            <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAF-M9vfo68/A7S6I7Bm9Mgwlkuxes-b4g/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-            </iframe>
+            <div class="viewer">
+                <div class="arrow-overlay arrow-left"></div>
+                <img id="curriculoImage" src="./assets/curriculo/1.png" alt="Página do Currículo">
+                <div class="arrow-overlay arrow-right"></div>
+            </div>
         </div>
-<a href="https:&#x2F;&#x2F;www.canv;A7S6I7Bm9&#x2F;view?utm_content=DAF-M9vfo68&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Currículo João Gabriel</a> de Osoapy
     </section>
-    <script src="scripts/script.js"></script>
-    <script src="scripts/darkMode.js"></script>
-    <script src="scripts/gsapAnimation.js" type="module"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js" defer></script>
+    <script src="scripts/curriculo.js" defer></script>
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/darkMode.js" defer></script>
+    <!--<script src="scripts/gsapAnimation.js" type="module" defer></script>-->
 </body>
 </html>
